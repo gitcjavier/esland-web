@@ -1,0 +1,24 @@
+---
+import Logo from "./Logo.astro";
+---
+
+<div class="w-full relative">
+  <img
+    src="/logo-home.svg"
+    alt="Esland Logo"
+    class="absolute top-10 z-10 w-[1000px] left-0 right-0 m-auto"
+  />
+  <video
+    class="w-full h-screen object-cover object-top animate-duration-[2s] animate-ease-in-out"
+    src="/video.mp4"
+    autoplay
+    loop
+    muted
+    style="clip-path: polygon(0 0, 100% 0, 100% 85%,50% 100%, 0 85%)"></video>
+  <video
+    class="absolute w-full h-screen -bottom-48 blur-3xl -z-40 animate-duration-[2s] animate-ease-in-out"
+    src="/video.mp4"
+    autoplay
+    loop
+    muted></video>
+</div>
